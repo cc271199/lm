@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200, initial-scale=yes">
+    <style>
+    .section {display: none; /* 先全部隐藏 */}
+    .section.active { display: block; /* 激活才显示 */}
+    .nav-item {cursor: pointer; /* 鼠标变小手 */}
+  </style>
+    <title>蓝粉色举起来</title>
+</head >
+<body style="margin: 0;font-family:'KaiTi','STKaiti'serif;display: flex;flex-direction:column ;min-height: 100vh;" >
+<div style="background-color: #f07575;flex-shrink: 0;width: 100%;height: 60px;text-align: center;" class="box">
+<h1 style="text-align: center;color:#efefef;margin: 10px;">
+    橹穆的幸福生活
+</h1>
+</div>
+<!--主体内容-->
+<div style="display: flex;flex: 1;overflow: hidden;"">
+    <!--左侧分类栏-->
+    <div style="width: 200px;;background-color: #b3d9ff;border-right:1px solid #202428 ;">
+        <!--一级分类栏-->
+         <div style="padding: 10px 10px;cursor:pointer;">
+    <details open=" ">
+        <summary style="color: #ffd6e8;" class="nav-item" data-tardet="page1">橹穆发展史导航</summary>
+
+        <div class="nav-item" data-target="page1" style="padding: 10px 10px;cursor:pointer;"
+onmouseover="this.style.backgroundColor='#ffd6e8';this.style.color='white'"
+    onmouseout="this.style.backgroundColor='#b3d9ff';this.style.color='#ffd6e8'">
+    初见
+</div>
+<div class="nav-item"data-target="page2"style="padding: 10px ;cursor:pointer;"
+onmouseover="this.style.backgroundColor='#ffd6e8';this.style.color='white'"
+    onmouseout="this.style.backgroundColor='#b3d9ff';this.style.color='#ffd6e8'">
+    不心动挑战
+</div>
+ <div class="nav-item"data-target="page3" style="padding: 10px 10px;cursor:pointer;"
+onmouseover="this.style.backgroundColor='#ffd6e8';this.style.color='white'"
+    onmouseout="this.style.backgroundColor='#b3d9ff';this.style.color='#ffd6e8'">
+    <del>913事变</del>
+</div>
+<div class="nav-item"data-target="page4" style="padding: 10px;cursor:pointer;"
+onmouseover="this.style.backgroundColor='#ffd6e8';this.style.color='white'"
+    onmouseout="this.style.backgroundColor='#b3d9ff';this.style.color='#ffd6e8'">
+    天魔
+</div>
+<div class="nav-item"data-target="page5" style="padding: 10px;cursor:pointer;"
+onmouseover="this.style.backgroundColor='#ffd6e8';this.style.color='white'"
+    onmouseout="this.style.backgroundColor='#b3d9ff';this.style.color='#ffd6e8'">
+    橹穆了解度表单
+</div>
+</div>
+</div>
+</details>
+<!--右侧内容-->
+<div style="padding: 20px;background-color: #ffd6e8;text-align: center;flex: 1;overflow-y: auto;">
+    <div id="page1" class="section active">
+            <h1 style="font-family: 'KaiTi';">
+                欢迎来到橹穆的小世界՞˶･֊･˶՞
+            </h1>
+            <hr style="color: #b3d9ff;">
+            <h3 style="color: #87c1fb;text-align: left;">如果未听到声音，请点击开始</h3>
+            <div style="text-align: left;">
+            <form action="" >
+            <input type="submit" value="开始">
+            </div>
+            </form>
+            <hr>
+            <ul>
+                <li style="text-align: left;font-family: 'KaiTi';font-size: 25px;color: #1275d8;">
+                   <u> 初见:我本可以忍受黑暗，如果我不曾见过太阳，然而阳光已使我的荒凉，成为更新的荒凉</u>
+                    <br> <audio src="img\szt.mp3"controls autoplay  loop></audio>
+                    <h6 style="margin: 5px;padding-left: 20px;color: #b3d9ff;font-size: 25px;">
+                        王橹杰
+                    </h6>
+                    <form action="">
+                        <textarea rows="5"cols="90";style="font-family:'KaiTi';">TF 家族四代核心门面主唱，彝族少年，2010 年出生于四川成都，以清亮声线、小提琴才艺与舞台爆发力见长。 一、基础档案 • 姓名：王橹杰 • 生日：2010 年 1 月 8 日（摩羯座） • 民族：彝族 • 籍贯：四川成都 / 凉山州西昌 • 身高：约 183cm（持续成长） • 公开时间：2022 年 10 月 6 日 • 粉丝名：Lumos • 应援色：碧玉澜诗 • 微博：@tf 家族 - 王橹杰 ljw • 才艺：唱歌、小提琴、钢琴、舞蹈
+                        </textarea>
+                    </form>
+                    <img src="img\wjl.jpg" alt="王橹杰不见咯" usemap="#wlj" style="height: 221px;width: 389px;">
+                     <img src="img\wlj2.jpg"alt="王橹杰不见咯" usemap="#wlj" style="height: 241px;width: 380px;">
+                     <img src="img\wlj3.jpg"alt="王橹杰不见咯" usemap="#wlj" style="height: 376px;width: 295px;">
+                    <map name="wlj">
+                        <area shape="circle" coords="200,200,300,400" href="https://www.bilibili.com/video/BV1h1kcBfEuJ?t=191.0" >
+                    </map>
+                    <br><button onclick="show1()" style="background-color: #87c1fb;color: #f79191;">想获取王橹杰的联系方式请点击这里</button>
+                    <h6 style="font-family: 'KaiTi';color:#ff572d ;font-size: 25px;margin: 10px">
+                        穆祉丞
+                    </h6>
+                    <form action="">
+                        <textarea rows="5"cols="90";style="font-family:'KaiTi';margin:2px;;padding-left: 20px">TF 家族三代主舞、TF_ING 厂牌艺人，2007 年 11 月 16 日生于重庆，2016 年入家族，2024 年正式出道。 一、基础档案 • 本名：穆瑞恩 • 生日：2007-11-16（天蝎座） • 定位：三代主舞 / 全能舞担，唱跳、吉他、架子鼓俱佳 • 经纪：时代峰峻 → 2024-09 加入 TF_ING 厂牌 • 粉丝：小纸团 • 微博：@TF_ING 穆祉丞 MUA
+                        </textarea>
+                    </form>
+                    <img src="img\mmexport1773147830900.jpg" alt="穆祉丞正在加载中" style="height: 500px;" usemap="#mzc">
+                    <img src="img\img-1771589398167899b1379e23866e4fd692f674d5034fe.jpg" alt="穆祉丞正在加载中" style="height: 290px;width: 470px; ;" usemap="#mzc">
+                    <img src="img\img-176901044826274518c6d5c977a13928d2f3727ff6838.jpg" alt="穆祉丞正在加载中" style="height: 369px;width: 288px; ;" usemap="#mzc">
+                    <map name="mzc">
+                        <area shape="circle" coords="200,200,300,400" href="https://www.bilibili.com/video/BV1h1kcBfEuJ?t=191.0" >
+                    </map>
+                    <br><button onclick="show2()" style="background-color: #ff84ab;color: #3892ed;">想获取穆祉丞的联系方式请点击这里</button>
+                    <h6 style="color: #8e81f1;margin: 5px;padding-left: 20px;font-size: 25px">
+                        橹穆简介
+                    </h6>
+                     <form action="">
+                        <textarea rows="1"cols="90";style="font-family:'KaiTi';">橹穆专属昵称解析： 大小总统；表弟表哥；全恩 bg；豚馒（幼儿）；杆墩
+                        </textarea>
+                        <br>
+                        <img src="img\lm.jpg" alt="豚馒正在赶来的路上" style="height: 360px;width: 540px;" usemap="#lm">
+                         <img src="img\lmydh.jpg" alt="豚馒正在赶来的路上" style="height: 482px;width: 510px;" usemap="#lm">
+                        <map name="lm">
+                        <area shape="circle" coords="200,200,300,400" href="https://www.bilibili.com/video/BV1h1kcBfEuJ?t=191.0" >
+                    </map>
+                        <p style="color: #4ea3e9;">大概是天瞧不起我笨，替我泄露半分</p>
+                        <p style="color: #ef6b6b;">2025年2月15日，王橹杰被曝出使用穆祉丞的照片作为壁纸，至此，命运的齿轮开始转动</p>
+                        <p style="color: #5aa1e8;">那么为什么王橹杰会把一个没什么交集的师兄设置壁纸呢？(=ﾟдﾟ=)？</p>
+                        <p style="color: #f07575;">让我们回溯时间</p>
+                        <p style="color: #7bb4ec;">你看见了既定剧本之外的我</p>
+                       <iframe      src="https://player.bilibili.com/player.html?bvid=BV1wNSwBaEVC&page=1&autoplay=0&loop=1"      
+                       width="70%"      
+                       height="450"      
+                       frameborder="0"      
+                       allowfullscreen style="margin: 0 auto;display: block;">
+                     </iframe>
+                        <p style="color: #77ade2;">从此，王橹杰心里多了一个叫穆祉丞的人
+                               <p style="color: #91bfec;">习惯你背影大过你眼神</p>
+                        <video src="img\SaveDouyin.com_Douyin_Media_001_ddc1a159810c070bd470979f04053529.mp4" controls loop style="height: 600px;"></video>
+                        <br>
+                            <p style="color: #91bfec;">你14岁时被整蛊的生日，14岁的我在楼道悄悄给你过</p>
+                        </p>
+                        <div class="img-row">
+                        <img src="img\wljh.jpg" alt="王橹杰正在给哥哥宝宝过生日中" style="height: 364px;width: 384px;" usemap="#wlj">
+                        <img src="img\img-17742664445079b3e83a404327f9a40fba54aca304c61.jpg" alt="图片正在加载中" style="height: 276px;width: 371px;"usemap="#wlj">
+                        <img src="img\w.jpg" alt="王橹杰正在摆弄海德薇" style="height: 280px;width: 360px;"usemap="#wlj">
+                        </div>
+                        <p style="color: #7bb4ec;">说是喜欢好像不够郑重，说是爱好像太过隆重
+                            <br>所以最真挚的心愿是祝你星途璀璨，如果你幸福的话，那我也会感到幸福的，师兄</p>
+                           <iframe      src="https://player.bilibili.com/player.html?bvid=BV1QQcRzFEWE&page=1&autoplay=0&loop=1"      
+                       width="70%"      
+                       height="500"      
+                       frameborder="0"      
+                       allowfullscreen 
+                       style="display: block;margin: 0 auto;"
+                       >
+                     </iframe>
+                            <p style="color: #ec8282;">两个骨头和性格一样硬的人为同一件事低头啜泣
+                                <br>你为前程 我为祉丞<br>
+                                <div class="img-row">
+                                <img src="img\wljk (2).jpg" alt="图片正在加载中" style="height: 300px;width: 400px;"usemap="#wlj">
+                                <img src="img\wljk (1).jpg" alt="图片正在加载中" style="height: 174px;width: 325px;"usemap="#wlj">
+                                <img src="img\wljk (3).jpg" alt="图片正在加载中" style="height: 300px;width: 300px;"usemap="#wlj">
+                                </div>
+                            </p>
+                    </li>
+                </ul>
+                </div>
+     <div id="page2" class="section">
+<ul>
+    <li  style="text-align: left;font-family: 'KaiTi';font-size: 25px;color: #1275d8;">
+        <u>不心动挑战：心扑通扑通跳</u>
+        <br>  <iframe      src="https://player.bilibili.com/player.html?bvid=BV1z8uPzDEHM&page=1&autoplay=0&loop=1"      
+                       width="65%"      
+                       height="450"      
+                       frameborder="0"      
+                       allowfullscreen
+                       style="display: block;margin: 0 auto;" >
+                     </iframe>
+        <h3 style="color: #b3d9ff;margin-bottom: 0;">紧张吗？</h3>
+        <h3 style="color: #ec8282;margin-top: 0;">有点</h3>
+        <div class="img-row">
+           <iframe      src="https://player.bilibili.com/player.html?bvid=BV1n4Akz1Eqe&page=1&autoplay=0&loop=1"      
+                       width="50%"      
+                       height="300"      
+                       frameborder="0"      
+                       allowfullscreen >
+                     </iframe>
+       <iframe      src="https://player.bilibili.com/player.html?bvid=BV1a7b1zzEsH&page=1&autoplay=0&loop=1"      
+                       width="45%"      
+                       height="300"      
+                       frameborder="0"      
+                       allowfullscreen >
+                     </iframe>
+        </div>
+        <p style="color: #91bfec;">因为穆祉丞的生日是2007年11月16日，所以王橹杰将27作为自己运动会的号码，而穆祉丞的号码是11</p>
+        <p style="color: #87c1fb;">所以271199成为橹穆99的另一种说法</p>
+    </li>
+</ul>
+</div>
+<div id="page3" class="section">
+<ul>
+      <li  style="text-align: left;font-family: 'KaiTi';font-size: 25px;color: #1275d8;">
+        <del>913事变</del>
+        <br>
+        <a style="color: #ec8282;" href="https://v.douyin.com/BqzRxw0oozQ">你好，不高兴你看被发卖全过程</a>
+   <p style="color: #91bfec;">师兄，我的喜欢给你造成困扰了吗？</p>
+        <audio src="img\gzs.mp3" controls></audio>
+         <iframe      src="https://player.bilibili.com/player.html?bvid=BV1zd4qz9Eqi&page=1&autoplay=0&loop=1"      
+                       width="60%"      
+                       height="500"      
+                       frameborder="0"      
+                       allowfullscreen
+                       style="display: block;margin: 0 auto;" >
+                     </iframe>
+    </li>
+</ul>
+</div>
+<div id="page4" class="section">
+<ul>
+    <li style="text-align: left;font-family: 'KaiTi';font-size: 25px;color: #1275d8;">
+<u>天魔</u>
+<ol style="color: #91bfec;padding-left 20px ;">
+    <li>初雪
+    <p>纷纷扬扬的雪花就带着你的思念和爱意降临在这座藏着你爱人的城市
+        <br>你伸手去接，手心的滚烫将雪花融成一滴水</p>
+         <iframe      src="https://player.bilibili.com/player.html?bvid=BV1cMmdBGEbR&page=1&autoplay=0&loop=1"      
+                       width="60%"      
+                       height="500"      
+                       frameborder="0"      
+                       allowfullscreen
+                       style="display: block;margin: 0 auto;" >
+                     </iframe>
+    </li> 
+           <br>
+             <li style="margin: 5px;">来自天堂的魔鬼
+                <br>
+     <iframe      src="https://player.bilibili.com/player.html?bvid=BV1uMv9BnEnk&page=1&autoplay=0&loop=1"      
+                       width="65%"      
+                       height="500"      
+                       frameborder="0"      
+                       allowfullscreen 
+                       style="display: block;margin: 0  auto;">
+                     </iframe>
+    </li>
+</ol>
+<a href="https://www.bilibili.com/video/BV15UvzBdE6G?t=22.6" style="color: #87c1fb;">点击这里观看官摄</a>
+    </li>
+</ul>
+</div>
+<div id="page5" class="section">
+<p style="color: #87c1fb;margin-left: 0;text-align: left;">现在让我们来测试一下你对橹穆的了解吧</p>
+<div style="background-color: #ffd6e8;margin: 0;text-align: left;">
+    <h1 style="color: #87c1fb;">橹穆了解度表单</h1>
+<form action="bd/">
+   <label for=" 请填入王橹杰的别称"> 请填入王橹杰的别称：</label>
+   <input type="text" name="请填入王橹杰的别称"  placeholder="请填入王橹杰的别称"><br>
+    <label for="请填入穆祉丞的别称">请填入穆祉丞的别称：</label>
+    <input type="text" name="请填入穆祉丞的别称" placeholder="请填入穆祉丞的别称"><br>
+     <label for="请填入橹穆的别称">请填入橹穆的别称：</label>
+     <input type="text" name="请填入橹穆的别称" placeholder="请填入橹穆的别称"><br>
+     <label for="请选择穆祉丞的生日">请选择穆祉丞的生日</label>
+     <input type="date" name="请选择穆祉丞的生日"><br>
+        <label for="wlj">穆祉丞是王橹杰的</label>
+     <input type="checkbox" name="wlj">哥哥宝宝
+     <input type="checkbox" name="wlj">穆穆哥哥
+     <input type="checkbox" name="wlj">师兄
+     <br>
+     <label for="lm">王橹杰对穆祉丞是</label>
+     <input type="radio" name="lm">暗恋
+     <input type="radio" name="lm" >明恋
+     <br>
+     <label for="mzc">看完网页后你爱上橹穆了吗？</label>
+     <select name="mzc" id="mzc">
+        <option value="对" selected>对</option>
+        <option value="当然" selected>当然</option>
+        <option value="爱上橹穆人之常情" selected>爱上橹穆人之常情</option>
+     </select>
+     <br>
+     <input type="submit" value="提交" onclick="show3()">
+</form>
+</div>
+  </div>
+  </div>
+
+  </div>
+  <script>
+    function show1(){
+        alert("你即将看见王橹杰");
+        window.location.href="https://weibo.com/u/3625607515";
+    }
+  </script>
+   <script>
+    function show2(){
+        alert("你即将看见穆祉丞");
+        window.location.href="https://weibo.com/u/7646393680";
+    }
+  </script>
+  <script>
+    function show3(){
+        alert("祝你星途璀璨");
+    }
+  </script>
+  /*点击左侧切换内容*/
+  <script>
+    const navItems = document.querySelectorAll('.nav-item');
+const sections = document.querySelectorAll('.section');
+navItems.forEach(item => {
+  item.addEventListener('click', () => {
+    navItems.forEach(i => i.classList.remove('active'));
+    sections.forEach(s => s.classList.remove('active'));
+    item.classList.add('active');
+    const id = item.dataset.target;
+    document.getElementById(id).classList.add('active');
+  });
+});
+  </script>
+</body>
+</html>
